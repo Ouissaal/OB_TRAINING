@@ -43,15 +43,20 @@ else{
 
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion - OB TRAINING</title>
+    <link rel="icon" href="./cours_img/logoOB.png" type="image/png">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+<?php include "header.php"; ?>
+
     <div class="conatiner card mx-auto mt-5 bordred shadow"style="width:400px;height:500px;">
         <h3 class="text-light  p-2 text-center connexion_title" >CONNEXION :</h3>
         <form action="login.php" method="post" class="p-3">
@@ -72,5 +77,8 @@ else{
 
         </form>
     </div>
+
+<?php include "footer.php"; ?>
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

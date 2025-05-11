@@ -1,4 +1,13 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progression du Cours - OB TRAINING</title>
+</head>
+<body>
 <?php
+include "header.php";
 session_start();
 require "pdoconnexion.php";
 $pdo = connexion();
@@ -239,6 +248,8 @@ $courseInfo = $stmt->fetch(PDO::FETCH_ASSOC);
             </div>
         </div>
     </div>
+    
+    <?php include "footer.php"; ?>
     
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     <script>

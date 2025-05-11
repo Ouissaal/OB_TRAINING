@@ -1,4 +1,13 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cours - OB TRAINING</title>
+</head>
+<body>
 <?php
+include "header.php";
 require "pdoconnexion.php";
 session_start();
 $pdo = connexion();
@@ -38,10 +47,6 @@ $sql = "SELECT * FROM cours";
 $stm = $pdo->query($sql);
 $cours = $stm->fetchAll();
 ?>
-
-
-<body>
- <?php include "header.php";?>
 
 
     <div class="hero-section">
@@ -115,7 +120,7 @@ $cours = $stm->fetchAll();
         </div>
     </div>
     
- <?php include "footer.php";?>
+<?php include "footer.php";?>
     
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
