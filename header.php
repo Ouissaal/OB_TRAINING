@@ -36,7 +36,7 @@
                         <a href="login.php" class="nav-link btn">Connexion</a>
                     </li>
                     <li class="nav-item">
-                        <a href="create_account.php" class="nav-link btn-outline">Inscription</a>
+                        <a href="inscription.php" class="nav-link btn-outline">Inscription</a>
                     </li>
                 <?php endif; ?>
             </ul>
