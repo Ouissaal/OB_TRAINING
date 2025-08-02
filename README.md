@@ -1,6 +1,6 @@
 # OB_TRAINING — Programming Language Learning Platform
 
-*OB_TRAININGr* is a web-based educational platform that helps users **learn programming languages** like **HTML, CSS, and PHP** while tracking their progress through *interactive quizzes*. The platform is built using **HTML, CSS, Bootstrap, PHP with PDO, SQL, sessions, and cookies**.
+*OB_TRAINING* is a web-based educational platform that helps users **learn programming languages** like **HTML, CSS, and PHP** while tracking their progress through *interactive quizzes*. The platform is built using **HTML, CSS, Bootstrap, PHP with PDO, SQL, sessions, and cookies**.
 
 
 
